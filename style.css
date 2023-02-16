@@ -133,3 +133,7 @@ button, select {
     border: 1px solid var(--frgrnd);
     border-radius: 5px;
 }
+button:active {
+    background-color: var(--frgrnd);
+    color: var(--bkgrnd);
+}
