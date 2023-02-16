@@ -335,6 +335,8 @@ const init = (() => {
       playerTwo.changeAI(1);
     } else if (aiPicker.value === "aiHard") {
       playerTwo.changeAI(2);
+    } else {
+        playerTwo.changeAI(0);
     }
     gameState.reset();
   });
