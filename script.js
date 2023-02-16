@@ -338,4 +338,7 @@ const init = (() => {
     }
     gameState.reset();
   });
+
+  // disable board until Start Game is clicked
+  gameState.disableBoard();
 })();
