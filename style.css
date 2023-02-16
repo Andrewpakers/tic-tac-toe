@@ -127,3 +127,9 @@ body {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
 }
+button, select {
+    background-color: var(--bkgrnd);
+    color: var(--frgrnd);
+    border: 1px solid var(--frgrnd);
+    border-radius: 5px;
+}
